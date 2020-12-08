@@ -369,18 +369,18 @@ hr {
   padding: 0;
   margin: 0;
 }
-.facebook:hover,
-.twitter:hover,
-.pinterest:hover {
+.linkedin:hover,
+.github:hover,
+.youtube:hover {
   background: #202020;
 }
-.facebook {
-  background: #3b5998;
+.linkedin {
+  background: #0e76a8;
 }
-.twitter {
-  background: #55acee;
+.github {
+  background: #90ee90;
 }
-.pinterest {
+.youtube {
   background: #cc2127;
 }
 .media {
