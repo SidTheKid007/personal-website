@@ -169,6 +169,10 @@ hr {
   font-size: 60px;
   padding-bottom: 40px;
 }
+
+.work-wrapper-spacing {
+  padding-bottom: 10px;
+}
 /* END WORK */
 
 /* START PORTFOLIO */
