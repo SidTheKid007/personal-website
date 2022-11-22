@@ -2,12 +2,12 @@
   font-family: boxicons;
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/boxicons.eot);
-  src: url(../fonts/boxicons.eot) format("embedded-opentype"),
-    url(../fonts/boxicons.woff2) format("woff2"),
-    url(../fonts/boxicons.woff) format("woff"),
-    url(../fonts/boxicons.ttf) format("truetype"),
-    url(../fonts/boxicons.svg?#boxicons) format("svg");
+  src: url(https://cdn.glitch.global/2ffa702d-3268-4e73-bbd8-5cad3d52a86e/boxicons.eot?v=1669159526601);
+  src: url(https://cdn.glitch.global/2ffa702d-3268-4e73-bbd8-5cad3d52a86e/boxicons.eot?v=1669159526601) format("embedded-opentype"),
+    url(https://cdn.glitch.global/2ffa702d-3268-4e73-bbd8-5cad3d52a86e/boxicons.woff2?v=1669159616939) format("woff2"),
+    url(https://cdn.glitch.global/2ffa702d-3268-4e73-bbd8-5cad3d52a86e/boxicons.woff?v=1669159653206) format("woff"),
+    url(https://cdn.glitch.global/2ffa702d-3268-4e73-bbd8-5cad3d52a86e/boxicons.ttf?v=1669159704403) format("truetype"),
+    url(https://cdn.glitch.global/2ffa702d-3268-4e73-bbd8-5cad3d52a86e/boxicons.svg?v=1669159973665) format("svg");
 }
 .bx {
   font-family: boxicons !important;
