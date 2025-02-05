@@ -53,11 +53,12 @@
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#facts" class="nav-link scrollto"><i class="bx bx-bulb"></i> <span>Facts</span></a></li>
           <li><a href="#certifications" class="nav-link scrollto"><i class="bx bx-network-chart"></i> <span>Certifications</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li> <!-- extra information -->
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li> 
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <!-- extra information -->
         </ul>
       </nav>
     </div>
@@ -71,78 +72,81 @@
   </section>
 
   <main id="main">
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title">
-          <h2>Resume</h2>
+          <h2>Portfolio</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Loch Technologies</h4>
-              <h5>2023 - 2024</h5>
-              <p><em>Full Stack Developer </em></p>
-              <ul> 
-                <li>Built a Flask (Python + SQL) pipeline that captured and stored GPS data anomalies from a UBLOX module. </li>
-                <li>Published multiple React based webpages that visualized GPS data with Plotly and regional maps with Mapbox. </li>
-                <li>Created a Flask + React webpage that collected, listed, and visualized major threats seen in the last 24 hours. </li>
-                <li>Monitored and Alerted real-time Wifi Anomalies with Caesar’s SOC office for the Vegas DefCon Convention. </li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Deloitte</h4>
-              <h5>2021 - 2022</h5>
-              <p><em>Solution Analyst (Software Engineer)	 </em></p>
-              <ul>
-                <li>Spent 9 months as an Anthem Database Developer and 11 months as a US Government Backend Developer. </li>
-                <li>Automated Sybase SQL script tasks using Python and migrated scripts to higher environments with Jenkins. </li>
-                <li>Built Django (Python) API endpoints to recommend classes and store user information in PostgreSQL database. </li>
-                <li>Utilized AWS SES in Django backend to automatically email users about account charges and incomplete tasks. </li>
-                <li>Mentored colleagues on ETL Pipeline procedure, Python-based data analysis, and proper Bitbucket Git hygiene. </li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Joust Bank</h4>
-              <h5>2019 - 2021</h5>
-              <p><em>Data Scientist </em></p>
-              <ul> 
-                <li>Developed and tuned Python underwriting algorithm that monitored user financial and behavioral risk profiles. </li>
-                <li>Created underwriting-based API endpoints in Django (Python) backend to approve users for invoice factoring. </li>
-                <li>Set up Tableau dashboards with real-time data from PostgreSQL DB to assist Marketing’s customer analysis. </li>
-                <li>Visualized user KPIs with PostgreSQL and Plotly.js for investor pitch decks and potential acquisition partners. </li>
-                <h4>ZenBusiness (acquired Joust Bank)</h4>
-                <li>Rewrote Joust Bank’s underwriting algorithm + endpoints to Ruby to integrate into the ZenBusiness codebase. </li>
-                <li>Improved underwriting algorithm with Experian Credit data initially extracted and analyzed with Apache Spark. </li>
-                <li>Cleaned and Pipelined data from AWS Redshift databases into Sisense dashboards to monitor business success. </li>
-                <li>Created Flask Python web pages (with HTML, CSS, and Vue.js) for the marketing team using US Census data. </li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Walmart – UTD Capstone</h4>
-              <h5>2019</h5>
-              <p><em>Energy Analyst </em></p>
-              <ul>
-                <li>Predicted a store’s energy consumption for the next fiscal year given historic energy data and weather patterns. </li>
-                <li>Visualized the data trends and presented the extracted findings to other Walmart data scientists and executives. </li>
-              </ul>
-            </div>
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>The University of Texas at Dallas</h4>
-              <h5>2015 - 2019</h5>
-              <p><em>Bachelors Degree of Computer Science</em></p>
-              <p>Vice President of UTD Tri-Sci, a college club that connects students to volunteer events and mentorship roles.</p>
-            </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://newchef.herokuapp.com/diversity">
+              <div class="portfolio-wrap black-text">
+                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FNewChefCover.jpg?v=1607471257537" class="img-fluid" alt="">
+                <p><strong>NewChef</strong></p>
+                <p>A website designed to help out new restaraunt owners with widgets such as demographics and competition.</p>
+              </div>
+            </a>
           </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://towardsdatascience.com/predicting-nba-rookie-stats-with-machine-learning-28621e49b8a4?source=friends_link&sk=2d870e7004ea2ca17b0d24433634260c">
+              <div class="portfolio-wrap black-text">
+                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FNBACover.jpg?v=1607475530548" class="img-fluid" alt="">
+                <p><strong>NBA Rookie Analysis</strong></p>
+                <p>A project that uses machine-learning algorithms to predict the statlines of the players in the 2020 NBA Rookie class.</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://regression-testing.herokuapp.com">
+              <div class="portfolio-wrap black-text">
+                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FRegressionCover.jpg?v=1607472238564" class="img-fluid" alt="">
+                <p><strong>Regression Testing</strong></p>
+                <p>A data analytics web-tool that displays distributions, correlations, and regressions on inputted csv datasets.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://devpost.com/software/metro-ar">
+              <div class="portfolio-wrap black-text">
+                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FMetroCover.jpg?v=1607474233611" class="img-fluid" alt="">
+                <p><strong>Metro AR</strong></p>
+                <p>An augmented reality based Facebook filter that helps users navigate and explore the LA Metro system.</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://devpost.com/software/stock-tracker-dz27x3">
+              <div class="portfolio-wrap black-text">
+                <img src="https://cdn.glitch.global/7fe211cf-1745-44d5-8611-31ca9a8dd0ae/StockCover.jpg?v=1644002004337" class="img-fluid" alt="">
+                <p><strong>Stock Tracker</strong></p>
+                <p>An embeddable confluence macro that provides real-time stock information based on the ticker.</p>
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="https://letsplaytrivia.webflow.io/">
+              <div class="portfolio-wrap black-text">
+                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FTriviaCover.jpg?v=1607473038321" class="img-fluid" alt="">
+                <p><strong>Let's Play Trivia</strong></p>
+                <p>An iOS mobile game where users can win iMessage stickers by answering trivia questions correctly.</p>
+              </div>
+            </a>
+          </div>
+
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
+    </section><!-- End Portfolio Section -->
     
     <!-- ======= Facts Section ======= -->
     <section id="facts" class="facts section-bg">
@@ -228,83 +232,8 @@
       </div>
     </section><!-- End Certifications Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="https://newchef.herokuapp.com/diversity">
-              <div class="portfolio-wrap black-text">
-                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FNewChefCover.jpg?v=1607471257537" class="img-fluid" alt="">
-                <p><strong>NewChef</strong></p>
-                <p>A website designed to help out new restaraunt owners with widgets such as demographics and competition.</p>
-              </div>
-            </a>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="https://towardsdatascience.com/predicting-nba-rookie-stats-with-machine-learning-28621e49b8a4?source=friends_link&sk=2d870e7004ea2ca17b0d24433634260c">
-              <div class="portfolio-wrap black-text">
-                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FNBACover.jpg?v=1607475530548" class="img-fluid" alt="">
-                <p><strong>NBA Rookie Analysis</strong></p>
-                <p>A project that uses machine-learning algorithms to predict the statlines of the players in the 2020 NBA Rookie class.</p>
-              </div>
-            </a>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="https://regression-testing.herokuapp.com">
-              <div class="portfolio-wrap black-text">
-                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FRegressionCover.jpg?v=1607472238564" class="img-fluid" alt="">
-                <p><strong>Regression Testing</strong></p>
-                <p>A data analytics web-tool that displays distributions, correlations, and regressions on inputted csv datasets.</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="https://devpost.com/software/metro-ar">
-              <div class="portfolio-wrap black-text">
-                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FMetroCover.jpg?v=1607474233611" class="img-fluid" alt="">
-                <p><strong>Metro AR</strong></p>
-                <p>An augmented reality based Facebook filter that helps users navigate and explore the LA Metro system.</p>
-              </div>
-            </a>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <a href="https://devpost.com/software/stock-tracker-dz27x3">
-              <div class="portfolio-wrap black-text">
-                <img src="https://cdn.glitch.global/7fe211cf-1745-44d5-8611-31ca9a8dd0ae/StockCover.jpg?v=1644002004337" class="img-fluid" alt="">
-                <p><strong>Stock Tracker</strong></p>
-                <p>An embeddable confluence macro that provides real-time stock information based on the ticker.</p>
-              </div>
-            </a>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a href="https://letsplaytrivia.webflow.io/">
-              <div class="portfolio-wrap black-text">
-                <img src="https://cdn.glitch.com/7fe211cf-1745-44d5-8611-31ca9a8dd0ae%2FTriviaCover.jpg?v=1607473038321" class="img-fluid" alt="">
-                <p><strong>Let's Play Trivia</strong></p>
-                <p>An iOS mobile game where users can win iMessage stickers by answering trivia questions correctly.</p>
-              </div>
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -347,6 +276,78 @@
 
       </div>
     </section><!-- End About Section -->
+    
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Loch Technologies</h4>
+              <h5>2023 - 2024</h5>
+              <p><em>Full Stack Developer </em></p>
+              <ul> 
+                <li>Built a Flask (Python + SQL) pipeline that captured and stored GPS data anomalies from a UBLOX module. </li>
+                <li>Published multiple React based webpages that visualized GPS data with Plotly and regional maps with Mapbox. </li>
+                <li>Created a Flask + React webpage that collected, listed, and visualized major threats seen in the last 24 hours. </li>
+                <li>Monitored and Alerted real-time Wifi Anomalies with Caesar’s SOC office for the Vegas DefCon Convention. </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Deloitte</h4>
+              <h5>2021 - 2022</h5>
+              <p><em>Solution Analyst (Software Engineer)	 </em></p>
+              <ul>
+                <li>Spent 9 months as an Anthem Database Developer and 11 months as a US Government Backend Developer. </li>
+                <li>Automated Sybase SQL script tasks using Python and migrated scripts to higher environments with Jenkins. </li>
+                <li>Built Django (Python) API endpoints to recommend classes and store user information in PostgreSQL database. </li>
+                <li>Utilized AWS SES in Django backend to automatically email users about account charges and incomplete tasks. </li>
+                <li>Mentored colleagues on ETL Pipeline procedure, Python-based data analysis, and proper Bitbucket Git hygiene. </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Joust Bank</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>Data Scientist </em></p>
+              <ul> 
+                <li>Developed and tuned Python underwriting algorithm that monitored user financial and behavioral risk profiles. </li>
+                <li>Created underwriting-based API endpoints in Django (Python) backend to approve users for invoice factoring. </li>
+                <li>Set up Tableau dashboards with real-time data from PostgreSQL DB to assist Marketing’s customer analysis. </li>
+                <li>Visualized user KPIs with PostgreSQL and Plotly.js for investor pitch decks and potential acquisition partners. </li>
+                <h4>ZenBusiness (acquired Joust Bank)</h4>
+                <li>Rewrote Joust Bank’s underwriting algorithm + endpoints to Ruby to integrate into the ZenBusiness codebase. </li>
+                <li>Improved underwriting algorithm with Experian Credit data initially extracted and analyzed with Apache Spark. </li>
+                <li>Cleaned and Pipelined data from AWS Redshift databases into Sisense dashboards to monitor business success. </li>
+                <li>Created Flask Python web pages (with HTML, CSS, and Vue.js) for the marketing team using US Census data. </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Walmart – UTD Capstone</h4>
+              <h5>2019</h5>
+              <p><em>Energy Analyst </em></p>
+              <ul>
+                <li>Predicted a store’s energy consumption for the next fiscal year given historic energy data and weather patterns. </li>
+                <li>Visualized the data trends and presented the extracted findings to other Walmart data scientists and executives. </li>
+              </ul>
+            </div>
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>The University of Texas at Dallas</h4>
+              <h5>2015 - 2019</h5>
+              <p><em>Bachelors Degree of Computer Science</em></p>
+              <p>Vice President of UTD Tri-Sci, a college club that connects students to volunteer events and mentorship roles.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
 
   </main>
   
